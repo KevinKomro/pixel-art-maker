@@ -1,0 +1,41 @@
+
+.pixel {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+  }
+
+.pixel-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+
+  }
+
+  .palette-item {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+  }
+
+  .palette-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+  }
+
+  .header-color {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .current-color {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 9px;
+  }
